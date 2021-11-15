@@ -1,0 +1,57 @@
+
+html{
+ 
+  box-sizing: border-box;
+}
+.bg-light{
+  background-color:transparent !important
+}
+body {background-color:#0000FF!important;}
+.login-title{
+ text-align:center;
+ margin-top: 30px;
+ color: white;
+}
+.navbar{
+  color:white
+}
+.login-form{
+ 
+width: 40vw;
+margin:40px auto;
+border-radius: .25rem;
+background: white;
+padding: 2rem;
+-webkit-box-shadow: 5px 4px 17px -6px rgba(0,0,0,0.85); 
+box-shadow: 5px 4px 17px -6px rgba(0,0,0,0.85);
+}
+.login-form form{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.other-links{
+width: 100%;
+text-align: center;
+color: white;
+}
+.other-links a{
+  color :white;
+  text-decoration: none;
+}
+.login-form input[type=text],input[type=password]{
+  width: 100%;
+  border: 1px solid #ccc;
+  min-height: 40px;
+  border-radius: .25rem;
+}
+
+.form-submit {
+  margin:10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.form-submit label{
+color:rgb(187, 187, 187);
+
+}
